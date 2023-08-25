@@ -1,0 +1,40 @@
+/***************************************
+*@file       :main.c
+*@author     :aya yehya
+*@brief      :problem 3
+****************************************
+*/
+
+/* ************include sec start***** */
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+/* ************include sec end***** */
+
+
+int main()
+{
+    int num1,num2,sum, sub, mul, mod, div;
+    printf("First number: \n");
+    scanf("%d", &num1);
+    printf("Second number: ");
+    scanf("%d",&num2);
+    sum=num1+num2;
+    sub=num1-num2;
+    mul=num1*num2;
+    div=(float) num1/num2;
+    mod=num1%num2;
+    printf("sum = %d\n",sum);
+    printf("sub = %d\n",sub);
+    printf("mul = %d\n",mul);
+    printf("mod = %d\n",mod);
+    printf("div = %d\n",div);
+    return 0;
+}
+
+/**
+*****************************************
+user    date     brief
+*****************************************
+aya     25/8     C program to perform all arithmetic operations
+**/
