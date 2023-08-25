@@ -1,0 +1,37 @@
+/****************************************************************************************************
+*@file       :main.c
+*@author     :aya yehya
+*@brief      :problem 6
+*****************************************************************************************************
+*/
+
+/* **********************************include sec start******************************************** */
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+/* **********************************include sec end******************************************** */
+
+
+int main()
+{
+    int num1,dia,area,cir;
+    printf("Enter radius:  \n");
+    scanf("%d", &num1);
+    dia=(num1*2);
+    cir=num1*2*3.14;
+    area=num1*num1*3.14;
+    printf("Diameter = %d ",dia);
+    printf("units \n");
+    printf("Circumference = %d ",dia);
+    printf("units \n");
+     printf("Area = %d ",dia);
+    printf("units \n");
+    return 0;
+}
+
+/**
+*****************************************************************************************************
+user    date     brief
+*****************************************************************************************************
+aya     25/8     enter radius of a circle and find its diameter, circumference and area.
+**/
