@@ -1,0 +1,33 @@
+/****************************************************************************************************
+*@file       :main.c
+*@author     :aya yehya
+*@brief      :problem 5
+*****************************************************************************************************
+*/
+
+/* **********************************include sec start******************************************** */
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+/* **********************************include sec end******************************************** */
+
+
+int main()
+{
+    int num1,num2,area;
+    printf("Enter length:  \n");
+    scanf("%d", &num1);
+    printf("Enter width: ");
+    scanf("%d",&num2);
+    area=(num1*num2);
+    printf("Area of rectangle = %d ",area);
+    printf("sq. units");
+    return 0;
+}
+
+/**
+*****************************************************************************************************
+user    date     brief
+*****************************************************************************************************
+aya     25/8     Write a C program to enter length and breadth of a rectangle and find its area.
+**/
